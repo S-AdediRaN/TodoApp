@@ -1,0 +1,144 @@
+
+
+
+
+/* class Selectors*/
+*{
+	box-sizing: border-box;
+}
+body{
+	padding: 0;
+	margin: 0;
+	background-image: url(../image/background4.jpg);
+	background-size: cover;
+}
+
+.footer p{
+	margin-left: 10%;
+	font-size: 10px;
+	color: white;
+}
+
+
+h1{
+	font-family: 'Raleway';
+	letter-spacing: 4px;
+	color: white;
+	font-size: 50px;
+	padding: 0;
+	margin: 0;
+}
+h3{
+	font-family: 'Raleway';
+	letter-spacing: 4px;
+	color: 	#E0FFFF;
+	font-size: 30px;
+    font-style: bold;
+	padding: 0;
+	margin: 0;
+	text-align: left;
+
+}
+li{
+	text-align: left;
+	display: inline-block;
+	padding: 10px;
+	border: solid 1px white;
+	margin:1%;
+	margin-left: 10%;
+	border-radius: 3px;
+	font-family:Raleway;
+	color: white;
+	cursor: pointer;
+}
+
+h1 + p{
+	color: lemonchiffon;
+	font-size: 2em;
+	margin: 0;
+	font-family:Raleway;
+	border-bottom: 1px solid;
+	display: inline;
+}
+
+
+.button{
+	display: inline-block;
+	padding: 10px;
+	border: solid 1px white;
+	border-radius: 3px;
+	font-family:Raleway;
+	color: white;
+}
+
+.button:hover{
+	border: solid 1px tomato;
+}
+
+/*CONTAINERS*/
+.container{
+	width: 47%;
+	margin: 1%;
+	margin-top: 5%;
+	display: inline-block;
+}
+
+.main-container{
+	width: 80%;
+	margin: auto;
+	overflow: auto;
+}
+.main-header {
+    margin-top: 35%;
+    margin-left: 10%;
+}
+
+
+#first-container{
+	float: left;
+	padding-top: 15%;
+}
+
+#second-container{
+	min-height: calc(90vh - 70px);
+	float: right;
+}
+#inner1{
+	
+    padding: 15px;
+    border:0;
+    text-align:left;
+    border-radius: 5px;
+    background-color:rgba(13, 160, 84, 0.187);
+    margin-bottom: 40%;
+	
+}
+#inner2{
+	padding:50px;
+	background-image: url(../image/top-header01.jpg);
+	background-size: cover;
+    background-repeat:no-repeat;
+	border-radius: 5px;
+    /*background-position:70% 70% 90% 50%;*/
+}
+#todoEntry{
+	margin: 0;
+    position: static;
+    height: 30px;
+    width: 70%;
+    border-radius: 5px;
+    border: 0;
+    background-color: #FFFAF0;
+}
+
+i{
+	color: 	#E0FFFF;
+}
+
+.i-class{
+	font-size: 15px;
+	padding: 5px;
+	color: white;
+}
+
+

@@ -13,13 +13,9 @@ if($_POST){
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width , initial-scale=1">
-		<link rel="stylesheet" href="css/dejicv.css">
+		<link rel="stylesheet" href="css/styles.css">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
         <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-		<meta name="author" content="Adediran Ayodeji">
-		<meta name="description" content="Ayodeji's Online CV">
-		<meta name="keywords" content="Ayodeji Adediran , Online CV , Codespace challenge ">
-
 	</head>
 		<body>
 			<div class="wrapper">
